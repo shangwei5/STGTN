@@ -56,7 +56,7 @@ setting. We use these test sets for evaluating generalization ability.
   RBE Dataset: Pan et al. [30] presented a real blurry event dataset, where each real sequence is captured with the DAVIS under different conditions, such as indoor, outdoor scenery, low lighting conditions, and different motion patterns (e.g., camera shake, objects motion) that naturally introduce motion blur into the APS intensity images. There is no ground-truth data available on this dataset. Hence, we only use it for quantitative comparison.
 
 ## Download
-Please download the testing datasets from [BaiduYun] and the training datasets from [BaiduYun]. Our STGTN model trained on non-consecutively blurry GOPRO dataset, REDS dataset, event dataset can be download [Here].
+Please download the testing datasets from [BaiduYun] and the training datasets from [BaiduYun]. Our STGTN model trained on non-consecutively blurry GOPRO dataset, REDS dataset, event dataset can be download [Here](https://pan.baidu.com/s/1lHu0SH_fgeEe-U4CU-CtRA)[password:8qpa].
 
 _(i)  If you have downloaded the pretrained models，please put STGTN model to './experiment'._
 
