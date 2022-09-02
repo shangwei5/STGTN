@@ -68,16 +68,16 @@ _(ii) If you have downloaded the datasets，please put them to './dataset'._
 ```
 cd code
 ```
-For testing w/o event data :_
+_For testing w/o event data :_
 ```
 python inference_swin_hsa_nfs.py --default_data XXXX
 ```
-For testing w/ event data :_
-On synthetic event dataset:_
+_For testing w/ event data :_
+_On synthetic event dataset:_
 ```
 inference_swin_hsa_nfs_event.py
 ```
-On real event dataset:_
+_On real event dataset:_
 ```
 inference_swin_hsa_nfs_event_real.py
 ```
