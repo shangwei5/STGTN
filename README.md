@@ -7,7 +7,7 @@ Under Review
 ## Prerequisites
 - Python >= 3.6, PyTorch >= 1.1.0
 - Requirements: opencv-python, numpy, matplotlib, imageio, scikit-image, tqdm
-- Platforms: Ubuntu 20.04, cuda-10.2, 4*Telsa V100 (16GB)
+- Platforms: Ubuntu 20.04, cuda-10.2, 4 * Tesla V100 (16GB)
 
 ## Datasets
   GOPRO_Random([Original](https://seungjunnah.github.io/Datasets/gopro.html)): To satisfy our assumption that sharp frames exist in a blurry video, we generate non-consecutively blurry frames in a video by randomly averaging adjacent sharp frames, i.e., the average number is randomly chosen from 1 to 15. And we assume that a generated frame **Bi** is sharp if the number of averaging frames is smaller than 5, i.e., label is 1, otherwise label is 0. It is worth noting that we randomly generate 50% blurry frames in a video, while the other 50% frames are sharp, without constraining that there must be 2 sharp ones in consecutive 7 frame.
