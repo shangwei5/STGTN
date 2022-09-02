@@ -7,7 +7,7 @@ import cv2
 import math
 import time
 import argparse
-from model.swint_hsa_nsf import CDVD_TSP
+from model.swint_hsa_nsf import STGTN
 import torch.nn.functional as F
 import torch.nn.parallel as P
 import torch.nn as nn
@@ -58,7 +58,7 @@ class Inference:
         self.logger.write_log('size_must_mode: {}'.format(self.size_must_mode))
         self.logger.write_log('device: {}'.format(self.device))
 
-        self.net = CDVD_TSP(in_channels=3, n_sequence=self.n_seq, out_channels=3, n_resblock=3, n_feat=32,
+        self.net = STGTN(in_channels=3, n_sequence=self.n_seq, out_channels=3, n_resblock=3, n_feat=32,
                  load_flow_net=False, load_recons_net=False, flow_pretrain_fn='', recons_pretrain_fn='',
                  is_mask_filter=False, device='cuda', args=args)
         self.net.load_state_dict(torch.load(self.model_path))  #, strict=False
