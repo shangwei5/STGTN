@@ -1,0 +1,15 @@
+argparse
+easydict
+
+numpy
+matplotlib
+scipy
+opencv-python
+
+torchvision
+tensorboardX
+
+
+# json
+
+# pprint
