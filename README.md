@@ -83,6 +83,12 @@ _On real event dataset:_
 inference_swin_hsa_nfs_event_real.py
 ```
 
+### Results
+Metrics(PSNR/SSIM) calculating codes are [Here](https://github.com/csbhr/OpenUtility#chapter-calculating-metrics).
+Average PSNR/SSIM values on GOPRO_Random dataset:
+![avatar]()
+
+
 ### 2) Training
 Without event data:
 ```
