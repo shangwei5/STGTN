@@ -106,7 +106,12 @@ Results on RBE dataset:
 ![avatar](./figure/Real_visual.png)
 
 ### Ablation
+Component Analysis:
+![avatar](./figure/ablation/Component.png)
 
+Effectiveness of NSFs:
+![avatar](./figure/ablation/NSF.png)
+![avatar](./figure/ablation/NSF_visual.png)
 
 ### 2) Training
 Without event data:
