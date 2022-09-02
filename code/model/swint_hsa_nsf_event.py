@@ -14,19 +14,19 @@ def make_model(args):
     # flow_pretrain_fn = args.pretrain_models_dir + 'network-default.pytorch'
     recons_pretrain_fn = ''
     is_mask_filter = True
-    return CDVD_TSP(in_channels=args.n_colors, n_sequence=args.n_sequence, out_channels=args.n_colors,
+    return STGTN(in_channels=args.n_colors, n_sequence=args.n_sequence, out_channels=args.n_colors,
                     n_resblock=args.n_resblock, n_feat=args.n_feat,
                     load_recons_net=load_recons_net, recons_pretrain_fn=recons_pretrain_fn,
                     is_mask_filter=is_mask_filter, device=device, args=args)
 
 
-class CDVD_TSP(nn.Module):
+class STGTN(nn.Module):
 
     def __init__(self, in_channels=3, n_sequence=3, out_channels=3, n_resblock=3, n_feat=32,
                  load_flow_net=False, load_recons_net=False, flow_pretrain_fn='', recons_pretrain_fn='',
                  is_mask_filter=False, device='cuda', args=None):
-        super(CDVD_TSP, self).__init__()
-        print("Creating CDVD-TSP Net")
+        super(STGTN, self).__init__()
+        print("Creating STGTN....")
 
         self.n_sequence = n_sequence
         self.device = device
