@@ -25,7 +25,7 @@ class STGTN(nn.Module):
                  load_flow_net=False, load_recons_net=False, flow_pretrain_fn='', recons_pretrain_fn='',
                  is_mask_filter=False, device='cuda', args=None):
         super(STGTN, self).__init__()
-        print("Creating CDVD-TSP Net")
+        print("Creating STGTN...")
 
         self.n_sequence = n_sequence
         self.device = device
