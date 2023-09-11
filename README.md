@@ -123,19 +123,19 @@ Effectiveness of NSFs:
 ### 2) Training
 Without event data:
 ```
-python main_d2net.py --template D2NET
+python main_swint_hsa_nsf.py --template SWINT_HSA_NSF  # SWINT_HSA_NSF_REDS  for REDS dataset, 
 ```
 With event data:
 ```
-python main_d2net_event.py --template D2NET_EVENT
+python main_swint_hsa_nsf_event.py --template SWINT_HSA_NSF_EVENT_GREY # SWINT_HSA_NSF_EVENT for color event
 ```
-Please check the path for you dataset.
+Please check the path for your dataset.
 
 
 
 
 ## Cite
-If you use any part of our code, or D2Net and non consecutively blurry dataset are useful for your research, please consider citing:
+If you use any part of our code, or D2Net and non consecutively blurry datasets are useful for your research, please consider citing:
 ```
   @InProceedings{Shang_2021_ICCV,
       author    = {Shang, Wei and Ren, Dongwei and Zou, Dongqing and Ren, Jimmy S. and Luo, Ping and Zuo, Wangmeng},
