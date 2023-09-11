@@ -1,4 +1,4 @@
-# Sharp Texture Guidance Transformer Network for Video Debluring with Non-consecutively Blurry Frames (STGTN)
+# Aggregating Long-term Sharp Features via Hybrid Transformers for Video Deblurring
 Under Review
 ---
 ### Introduction
