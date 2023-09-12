@@ -135,7 +135,7 @@ Please check the path for your dataset.
 
 
 ## Cite
-If you use any part of our code, or D2Net and non consecutively blurry datasets are useful for your research, please consider citing:
+If you use any part of our code, or STGATN and non consecutively blurry datasets are useful for your research, please consider citing:
 ```
   @InProceedings{Shang_2021_ICCV,
       author    = {Shang, Wei and Ren, Dongwei and Zou, Dongqing and Ren, Jimmy S. and Luo, Ping and Zuo, Wangmeng},
