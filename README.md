@@ -137,14 +137,7 @@ Please check the path for your dataset.
 ## Cite
 If you use any part of our code, or STGATN and non consecutively blurry datasets are useful for your research, please consider citing:
 ```
-  @InProceedings{Shang_2021_ICCV,
-      author    = {Shang, Wei and Ren, Dongwei and Zou, Dongqing and Ren, Jimmy S. and Luo, Ping and Zuo, Wangmeng},
-      title     = {Bringing Events Into Video Deblurring With Non-Consecutively Blurry Frames},
-      booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-      month     = {October},
-      year      = {2021},
-      pages     = {4531-4540}
-  }
+
 ```
 
 
