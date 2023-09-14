@@ -137,7 +137,12 @@ Please check the path for your dataset.
 ## Cite
 If you use any part of our code, or STGATN and non consecutively blurry datasets are useful for your research, please consider citing:
 ```
-
+@article{ren2023aggregating,
+      title={Aggregating Long-term Sharp Features via Hybrid Transformers for Video Deblurring}, 
+      author={Dongwei Ren and Wei Shang and Yi Yang and Wangmeng Zuo},
+      journal={arXiv preprint arXiv:2309.07054},
+      year={2023}
+}
 ```
 
 
