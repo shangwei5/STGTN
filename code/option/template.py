@@ -172,8 +172,7 @@ def set_template(args):
         args.batch_size = 12
         args.epochs = 5
         args.pre_train = '../experiment/swint_hsa_nsf_reds/model/model_best.pt'
-        args.dir_data = '/mnt/disk10T/shangwei/data/deblur/BSDtest'
-        args.dir_data2 = '/mnt/disk10T/shangwei/data/deblur/REDS_8x_Random/train'
+        args.dir_data = '/mnt/disk10T/shangwei/data/deblur/REDS_8x_Random/train'
         args.dir_data_test = '/mnt/disk10T/shangwei/data/deblur/BSDval'
     else:
         raise NotImplementedError('Template [{:s}] is not found'.format(args.template))
