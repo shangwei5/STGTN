@@ -86,24 +86,24 @@ inference_swin_hsa_nfs_event_real.py
 ### Results
 Metrics(PSNR/SSIM) calculating codes are [Here](https://github.com/csbhr/OpenUtility#chapter-calculating-metrics).
 
-//Average PSNR/SSIM values on GOPRO_Random dataset:
+<!-- Average PSNR/SSIM values on GOPRO_Random dataset:
 
-//![avatar](./figure/GoPro.png)
+![avatar](./figure/GoPro.png) -->
 ![avatar](./figure/GoPro_visual.png)
 
-//Average PSNR/SSIM values on REDS_Random dataset:
+<!-- Average PSNR/SSIM values on REDS_Random dataset:
 
-//![avatar](./figure/REDS.png)
+![avatar](./figure/REDS.png) -->
 ![avatar](./figure/REDS_visual.png)
 
-//Average PSNR/SSIM values on BSD dataset:
+<!-- Average PSNR/SSIM values on BSD dataset:
 
-//![avatar](./figure/BSD.png)
+![avatar](./figure/BSD.png) -->
 ![avatar](./figure/BSD_visual.png)
 
-//Average PSNR/SSIM values on CED dataset:
+<!-- Average PSNR/SSIM values on CED dataset:
 
-//![avatar](./figure/CED.png)
+![avatar](./figure/CED.png) -->
 ![avatar](./figure/CED_visual.png)
 
 Results on RBE dataset:
@@ -111,9 +111,9 @@ Results on RBE dataset:
 ![avatar](./figure/Real_visual.png)
 
 ### Ablation
-//Component Analysis:
+<!-- Component Analysis:
 
-//![avatar](./figure/ablation/Component.png)
+![avatar](./figure/ablation/Component.png) -->
 
 Effectiveness of NSFs:
 
