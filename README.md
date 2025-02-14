@@ -1,8 +1,5 @@
 # Aggregating Nearest Sharp Features via Hybrid Transformers for Video Deblurring
-Under Review
 ---
-### Introduction
-
 
 ## Prerequisites
 - Python >= 3.6, PyTorch >= 1.1.0
