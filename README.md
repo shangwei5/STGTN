@@ -1,5 +1,6 @@
-# Aggregating Nearest Sharp Features via Hybrid Transformers for Video Deblurring (Information Sciences 2025)
+# Aggregating Nearest Sharp Features via Hybrid Transformers for Video Deblurring 
 ---
+Information Sciences 2025
 
 ## Prerequisites
 - Python >= 3.6, PyTorch >= 1.1.0
