@@ -1,4 +1,4 @@
-# Aggregating Nearest Sharp Features via Hybrid Transformers for Video Deblurring
+# Aggregating Nearest Sharp Features via Hybrid Transformers for Video Deblurring (Information Sciences 2025)
 ---
 
 ## Prerequisites
