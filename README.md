@@ -1,4 +1,4 @@
-# Aggregating Long-term Sharp Features via Hybrid Transformers for Video Deblurring
+# Aggregating Nearest Sharp Features via Hybrid Transformers for Video Deblurring
 Under Review
 ---
 ### Introduction
@@ -137,11 +137,14 @@ Please check the path for your dataset.
 ## Cite
 If you use any part of our code, or STGATN and non consecutively blurry datasets are useful for your research, please consider citing:
 ```
-@article{ren2023aggregating,
-  title={Aggregating Long-term Sharp Features via Hybrid Transformers for Video Deblurring},
-  author={Ren, Dongwei and Shang, Wei and Yang, Yi and Zuo, Wangmeng},
-  journal={arXiv preprint arXiv:2309.07054},
-  year={2023}
+@article{shang2025aggregating,
+  title={Aggregating nearest sharp features via hybrid transformers for video deblurring},
+  author={Shang, Wei and Ren, Dongwei and Yang, Yi and Zuo, Wangmeng},
+  journal={Information Sciences},
+  volume={694},
+  pages={121689},
+  year={2025},
+  publisher={Elsevier}
 }
 ```
 
