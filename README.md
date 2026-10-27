@@ -1,6 +1,6 @@
-# Aggregating Nearest Sharp Features via Hybrid Transformers for Video Deblurring 
+<img width="1512" height="982" alt="image" src="https://github.com/user-attachments/assets/dca193a3-6215-4bf5-9c3e-4554db28a4a5" /># Aggregating Nearest Sharp Features via Hybrid Transformers for Video Deblurring 
 ---
-Information Sciences 2025
+Information Sciences 2025 [(PDF)https://www-sciencedirect-com.libproxy.smu.edu.sg/science/article/pii/S0020025524016037]
 
 ## Prerequisites
 - Python >= 3.6, PyTorch >= 1.1.0
